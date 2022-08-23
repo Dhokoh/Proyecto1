@@ -1,0 +1,196 @@
+.page_background{
+    display:flex;
+    width:100%;
+    height:100%;
+    position:absolute;
+    z-index: -1;
+}
+.panel_one{
+    background-color: #ff0000;
+    height: 100%;
+    width: 50%;
+}
+.panel_two{
+    background:#ffffff;
+    height: 100%;
+    width:50%;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma;
+    margin: 0px;
+}
+header{
+    display: flex;
+    height: 200px;
+}
+
+.red_area{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #ff0000;
+    width: 50%;
+    color: #fff;
+}
+.company_logo{
+    font-size: 35px;
+}
+.white_area{
+    display:flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    width:50%;
+    align-items: center;
+}
+
+a{
+    padding: 5px;
+    font-size:20px;
+    font-weight: 500;
+}
+a:link{
+    color:#ff0000;
+    text-decoration: none;
+}
+a:visited{
+    color:#ff0000;
+}
+a:hover{
+    color: #0000ff;
+}
+.jumbotron{
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.columna_uno{
+    background-color: #ff0000;
+}
+.pusher{
+    background-color: #ff0000;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.columna_dos{
+    background-color: #ffffff;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.jumbo_h1_p_container{
+    background-color: green;
+    width: 50%;
+}
+.jumbo_h1{
+    font-family: Helvetica, sans-serif;
+    color: #fff;
+}
+.red_text{
+    font-family: Helvetica, sans-serif;
+    color:#ff0000;
+}
+.jumbo_p{
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+}
+.red_part{
+    color:#ff0000;
+}
+.email_box{
+    width: 270px;
+    height: 30px;
+    margin-left:5px;
+}
+.send_button{
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: #ff0000;
+    height: 45px;
+}
+.emailform_footer{
+    color: #ffffff;
+    font-size: 10px;
+    margin-left: 5px;
+}
+.jumbotron_img{
+    width: 400px;
+    height: 400px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    border: #000000;
+    border-style: dotted;
+    border-radius: 50%;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.container{
+    background-color: green;
+}
+.contactus_h2{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-top: 75px;
+}
+.searchbar{
+    font-weight: 250;
+    font-size: 25px;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.name_input{
+    width: 250px;
+}
+.phone_input{
+    width:120px;
+}
+.subject_input{
+    width: 150px;
+}
+.message_body_input{
+    width: 300px;
+    height:250px;
+    margin-top: 13px;
+}
+.sendbutton{
+    border-radius: 5px;
+    border-color: #ff0000;
+    background-color: #fff;
+}
+#gmaplocationlink:visited{
+    color: #000000;
+    text-decoration: underline !important;
+}
+#gmaplocationlink:hover{
+    color:#ffffff;
+}
+.aboutuscontainer>h2{
+    color: #ff0000;
+    font-size: 25px;
+}
+.aboutuscontainer>p{
+    font-weight: 250;
+    font-size: 25px;
+    justify-content: space-evenly;
+}
+.blog{
+    display: grid;
+    grid-template-columns: repeat(3,1px);
+}
+.semiconductors{
+    grid-column-start:1;
+    grid-column-end:2;
+}
+.modules{
+    grid-column-start:2;
+    grid-column-end:3;
+}
+
+

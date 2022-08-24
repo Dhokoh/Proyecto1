@@ -164,7 +164,7 @@ a:hover{
     grid-column-end: 3;
     margin-top: 75px;
 }
-.searchbar{
+.form_container{
     font-weight: 250;
     font-size: 15px;
     grid-row-start: 3;
@@ -172,6 +172,7 @@ a:hover{
     color: #ffffff;
     font-weight: 300;
 }
+
 .name_input{
     width: 250px;
 }
@@ -222,6 +223,22 @@ a:hover{
     font-size: 25px;
     justify-content: space-evenly;
 }
+.blog{
+    display: flex;
+    flex-direction: column;
+}
+.blog_columna_uno{
+    display: flex;
+    background-color: red;
+    height: 800px;
+    width: 50%;
+    z-index: -1;
+}
+.product_shelf{
+    display:flex;
+    color: #ffffff;
+}
+
 .test{
     background-color: #adff2f;
 }

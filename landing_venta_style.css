@@ -244,6 +244,10 @@ a:hover{
     height: 250px;
     border-radius: 50%;
     border: #000000;
+    border-style: dotted;
+}
+.redarea_categories{
+    text-align: center;
 }
 .image_container{
     display: flex;
@@ -263,9 +267,9 @@ a:hover{
     text-align: center;
     color: #ff0000;
 }
-.blog_separador{
+/* .blog_separador{
     padding: 100px;
-}
+} */
 .test{
     background-color: #adff2f;
 }

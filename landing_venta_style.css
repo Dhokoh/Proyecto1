@@ -51,6 +51,7 @@ a{
 }
 a:link{
     text-decoration: none;
+    color: #ff0000;
 }
 a:visited{
     color:#ff0000;
@@ -65,6 +66,29 @@ a:hover{
 }
 .columna_uno{
     background-color: #ff0000;
+    display:flex;
+    align-content: center;
+    justify-content: center;
+}
+.columna_dos{
+    background-color: #ffffff;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.columna_uno_pusher{
+    background-color: #ff0000;
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.columna_dos_pusher{
+    background-color: #ffffff;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .pusher{
     background-color: #ff0000;
@@ -72,12 +96,6 @@ a:hover{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-}
-.columna_dos{
-    background-color: #ffffff;
-    display: flex;
-    align-content: center;
-    justify-content: center;
 }
 .jumbo_h1_p_container{
     background-color: green;
@@ -128,18 +146,14 @@ a:hover{
     grid-row-start: 1;
     grid-row-end: 2;
 }
-.container{
-    background-color: green;
-}
 .contactus_pusher{
     background-color: #ff0000;
-    height: 460px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 .separator{
-    padding:90px 0px 90px 0px;
+    height: 100px;
 }
 .contactus_h2{
     grid-row-start: 2;
@@ -149,7 +163,7 @@ a:hover{
     grid-column-end: 3;
     margin-top: 75px;
 }
-.searchbar{
+.form_container{
     font-weight: 250;
     font-size: 15px;
     grid-row-start: 3;
@@ -157,6 +171,7 @@ a:hover{
     color: #ffffff;
     font-weight: 300;
 }
+
 .name_input{
     width: 250px;
 }
@@ -190,32 +205,67 @@ a:hover{
     padding: 90px 0px 90px 0px;
 }
 .aboutus_container{
-    height: 460px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 20px;
 }
-.aboutuscontainer>h2{
+.aboutus_container>h1{
+    color: #ff0000;
+}
+.aboutus_container>h2{
     color: #ff0000;
     font-size: 25px;
 }
-.aboutuscontainer>p{
+.aboutus_container>p{
     font-weight: 250;
     font-size: 25px;
     justify-content: space-evenly;
 }
 .blog{
-    display: grid;
-    grid-template-columns: repeat(3,1px);
+    display: flex;
+    /* flex-direction: column; */
 }
-.semiconductors{
-    grid-column-start:1;
-    grid-column-end:2;
+.blog_columna_uno{
+    display: flex;
+    background-color: #ff0000;
+    height: 800px;
+    width: 50%;
+    z-index: -1;
 }
-.modules{
-    grid-column-start:2;
-    grid-column-end:3;
+.product_shelf{
+    display:flex;
+    color: #ffffff;
+    width: 100%;
+    align-items: center;
 }
-
-
+.categorias{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: #000000;
+}
+.image_container{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    padding: 35px;
+    align-items: center;
+}
+.blog_columna_dos{
+    display: flex;
+    background-color: #fff;
+    height: 800px;
+    width: 50%;
+    z-index: -1;
+}
+.whitearea_categories{
+    text-align: center;
+    color: #ff0000;
+}
+.blog_separador{
+    padding: 100px;
+}
+.test{
+    background-color: #adff2f;
+}

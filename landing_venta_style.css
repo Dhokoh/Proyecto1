@@ -148,7 +148,6 @@ a:hover{
 }
 .contactus_pusher{
     background-color: #ff0000;
-    height: 460px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -225,11 +224,11 @@ a:hover{
 }
 .blog{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
 }
 .blog_columna_uno{
     display: flex;
-    background-color: red;
+    background-color: #ff0000;
     height: 800px;
     width: 50%;
     z-index: -1;
@@ -237,8 +236,36 @@ a:hover{
 .product_shelf{
     display:flex;
     color: #ffffff;
+    width: 100%;
+    align-items: center;
 }
-
+.categorias{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: #000000;
+}
+.image_container{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    padding: 35px;
+    align-items: center;
+}
+.blog_columna_dos{
+    display: flex;
+    background-color: #fff;
+    height: 800px;
+    width: 50%;
+    z-index: -1;
+}
+.whitearea_categories{
+    text-align: center;
+    color: #ff0000;
+}
+.blog_separador{
+    padding: 100px;
+}
 .test{
     background-color: #adff2f;
 }

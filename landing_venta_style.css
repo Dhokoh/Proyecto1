@@ -153,7 +153,7 @@ a:hover{
     justify-content: space-between;
 }
 .separator{
-    height: 100px;
+    height: 300px;
 }
 .contactus_h2{
     grid-row-start: 2;
@@ -224,14 +224,13 @@ a:hover{
 }
 .blog{
     display: flex;
-    /* flex-direction: column; */
 }
 .blog_columna_uno{
     display: flex;
+    flex-direction: column;
     background-color: #ff0000;
     height: 800px;
     width: 50%;
-    z-index: -1;
 }
 .product_shelf{
     display:flex;
@@ -251,25 +250,56 @@ a:hover{
 }
 .image_container{
     display: flex;
-    align-items: flex-end;
     flex-direction: column;
     padding: 35px;
     align-items: center;
+    width: 208px;
+    height: 400px;
 }
 .blog_columna_dos{
     display: flex;
+    flex-direction: column;
     background-color: #fff;
     height: 800px;
     width: 50%;
-    z-index: -1;
 }
 .whitearea_categories{
     text-align: center;
     color: #ff0000;
 }
-/* .blog_separador{
-    padding: 100px;
-} */
+.blog_pusher{
+    display:flex;
+    width: 100%;
+}
+.banner{
+    display: flex;
+}
+.banner_coluno{
+    display: flex;
+    flex-direction: column;
+    background-color: #ff0000;
+    height: 800px;
+    width: 50%;
+    justify-content: flex-end;
+}
+.banner_coldos{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffff;
+    height: 800px;
+    width: 50%;
+    justify-content: flex-end;
+}
+.banner_coluno>h1{
+    color: #ffffff;
+    text-align: end;
+    padding-right: 10px;
+}
+.banner_coldos>h1{
+    color: #ff0000;
+    text-align: left;
+    padding-left: 10px;
+}
 .test{
     background-color: #adff2f;
 }

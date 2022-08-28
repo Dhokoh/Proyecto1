@@ -236,9 +236,11 @@ a:hover{
 }
 .product_shelf{
     display:flex;
+    flex-direction: row;
     color: #ffffff;
     width: 100%;
     align-items: center;
+    justify-content: space-around;
 }
 .categorias{
     width: 250px;
@@ -255,6 +257,7 @@ a:hover{
     flex-direction: column;
     padding: 35px;
     align-items: center;
+    justify-items: space-between;
     width: 208px;
     height: 400px;
 }
